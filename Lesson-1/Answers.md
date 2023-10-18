@@ -19,10 +19,21 @@
   - c).
     - i). For the additive inverse we are looking for a variable that satisfies $a+b=0 \bmod{7}$. If $3$ is the given number then we look to satisfy $3+a=0 \bmod{7}$. We can see that $4$ staisfiys the equation - $3+4=0 \bmod{7}$.
     - ii). For the multiplicative inverse we are looking for a variable that satisfies $a*b=1 \bmod{7}$. If $3$ is the given number then we look to satisfy $3*a=1 \bmod{7}$. We can see that $5$ staisfiys the equation - $3*5=1 \bmod{7}$.
-- 2. To be considered a group, the set of elements $S$ should have the properties of *Closure*, *Associativity*, *Identiity Element*, and *Inverse Element* under a spcified binary operation.  We will consider the two different binary operations, i) addition $(S,+_s \bmod{7})+$ and ii) multiplication $(S,*_s \bmod{7})$.
-- - a). *Closure*
--  - i). $\forall{a,b} \in{S}$  the following is satisfied $(a+b)\bmod 7 \in S$ so we can consider the group closed
--  - ii). $\forall{a,b} \in{S}$  the following is satisfied $(a*b)\bmod 7 \in S$ so we can consider the group closed
+- 2. To be considered a group, the set of elements $S$ should have the properties of _Closure_, _Associativity_, _Identiity Element_, and _Inverse Element_ under a spcified binary operation. We will consider the two different binary operations, i) addition $(S,+_s \bmod{7})+$ and ii) multiplication $(S,*_s \bmod{7})$.
+  - a). _Closure_
+    - i). $\forall{a,b} \in{S}$ the following is satisfied $(a+b)\bmod{7} \in S$ so we can consider the group closed
+    - ii). $\forall{a,b} \in{S}$ the following is satisfied $(a*b)\bmod{7} \in S$ so we can consider the group closed
+  - b). _Associativity_
+    - i). $\forall{a,b,c} \in{S}$ the following is satisfied $(a+b)+c\bmod{7}=a+(b+c)\bmod{7}$ so we can consider the group to be associative under the operation $+ \bmod{7}$
+    - ii). $\forall{a,b,c} \in{S}$ the following is satisfied $(a*b)*c\bmod{7}=a*(b*c)\bmod{7}$ so we can consider the group to be associative under the operation $\* /root/
+  - c). _Identity Element_
+    - i). $\forall{a,b} \in{S}$ the following is satisfied $(a+b)\bmod{7}=(a+b)\bmod{7}=a$ if the identify element is $0$ which is also in $S$.
+    - ii). $\forall{a,b} \in{S}$ the following is satisfied $(a*b)\bmod{7}=(a*b)\bmod{7}=a$ if the identity element is $1$ which is also in $S$.
+  - d). _Inverse Element_
+    - i). $\forall{a,b} \in{S}$ the following is satisfied $(a+b)\bmod{7}=0$, where $0$ is the identity element, so we can conclude that there exists an inverse for elevry element.
+    - ii). $\forall{a,b} \in{S}$ the following is not satisfied $(a*b)\bmod{7}=1$, where $1$ is the  identity element.  Any element that is multiplied by the element $0$ will be zero which means that there is no inverse for that element and so no all elements have an inverse.
+    
+Thus, $(S,+_s\bmod{7})$ is a group but $(S, *_s\bmod{7})$ is not.
 
 ## Polynomials
 
