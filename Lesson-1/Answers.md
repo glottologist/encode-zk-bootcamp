@@ -31,9 +31,11 @@
     - ii). $\forall{a,b} \in{S}$ the following is satisfied $(a*b)\bmod{7}=(a*b)\bmod{7}=a$ if the identity element is $1$ which is also in $S$.
   - d). _Inverse Element_
     - i). $\forall{a,b} \in{S}$ the following is satisfied $(a+b)\bmod{7}=0$, where $0$ is the identity element, so we can conclude that there exists an inverse for elevry element.
-    - ii). $\forall{a,b} \in{S}$ the following is not satisfied $(a*b)\bmod{7}=1$, where $1$ is the  identity element.  Any element that is multiplied by the element $0$ will be zero which means that there is no inverse for that element and so no all elements have an inverse.
-    
+    - ii). $\forall{a,b} \in{S}$ the following is not satisfied $(a*b)\bmod{7}=1$, where $1$ is the identity element. Any element that is multiplied by the element $0$ will be zero which means that there is no inverse for that element and so no all elements have an inverse.
+
 Thus, $(S,+_s\bmod{7})$ is a group but $(S, *_s\bmod{7})$ is not.
+
+3. $-13\bmod{5}=2$?
 
 ## Polynomials
 
@@ -44,3 +46,7 @@ Thus, $(S,+_s\bmod{7})$ is a group but $(S, *_s\bmod{7})$ is not.
    b). What is the degree of this polynomial?
 
 ### Answers
+
+4. Attempting to factorize this gives $x^3-x^2+4x-12=(x-2)(x^2+x+6)=0$.
+ - a). $x^2+x+6$ cannot be simplified further which means it has complex roots so that leaves the only real root as $(x-2)=0$, which means that 2 is the positive root.
+ - b). The degree of a polynomial is the highest power of the variables, which in this case, is 3.
