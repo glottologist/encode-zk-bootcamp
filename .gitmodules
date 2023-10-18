@@ -1,0 +1,4 @@
+[submodule "code"]
+	path = code
+	url = git@github.com:glottologist/ZeroKnowledgeBootcamp-code.git
+	branch = main
