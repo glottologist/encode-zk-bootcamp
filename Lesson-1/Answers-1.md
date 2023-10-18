@@ -3,6 +3,7 @@
 ## Modular Arithmetic
 
 ### Questions
+3. What is $-13 \bmod{5}$?
 
 1. Working with the following set of integers $S={0,1,2,3,4,5,6}$. What is:
    a). $4 + 4$
@@ -17,8 +18,8 @@
   - a). $4+4\equiv 8 \bmod{7}=1$
   - b). $3x5\equiv 15 \bmod{7}=1$
   - c).
-    - i). For the additive inverse we are looking for a variable that satisfies $a+b=0 \bmod{7}$. If $3$ is the given number then we look to satisfy $3+a=0 \bmod{7}$. We can see that $4$ staisfiys the equation - $3+4=0 \bmod{7}$.
-    - ii). For the multiplicative inverse we are looking for a variable that satisfies $a*b=1 \bmod{7}$. If $3$ is the given number then we look to satisfy $3*a=1 \bmod{7}$. We can see that $5$ staisfiys the equation - $3*5=1 \bmod{7}$.
+    - i). For the additive inverse we are looking for a variable that satisfies $a+b=1 \bmod{7}$. If $3$ is the given number then we look to satisfy $3+a=0 \bmod{7}$. We can see that $4$ statisfies the equation - $3+4=0 \bmod{7}$.
+    - ii). For the multiplicative inverse we are looking for a variable that satisfies $a*b=1 \bmod{7}$. If $3$ is the given number then we look to satisfy $3*a=1 \bmod{7}$. We can see that $5$ statisfies the equation - $3*5=1 \bmod{7}$.
 - 2. To be considered a group, the set of elements $S$ should have the properties of _Closure_, _Associativity_, _Identiity Element_, and _Inverse Element_ under a spcified binary operation. We will consider the two different binary operations, i) addition $(S,+_s \bmod{7})+$ and ii) multiplication $(S,*_s \bmod{7})$.
   - a). _Closure_
     - i). $\forall{a,b} \in{S}$ the following is satisfied $(a+b)\bmod{7} \in S$ so we can consider the group closed
@@ -48,5 +49,6 @@ Thus, $(S,+_s\bmod{7})$ is a group but $(S, *_s\bmod{7})$ is not.
 ### Answers
 
 4. Attempting to factorize this gives $x^3-x^2+4x-12=(x-2)(x^2+x+6)=0$.
- - a). $x^2+x+6$ cannot be simplified further which means it has complex roots so that leaves the only real root as $(x-2)=0$, which means that 2 is the positive root.
- - b). The degree of a polynomial is the highest power of the variables, which in this case, is 3.
+
+- a). $x^2+x+6$ cannot be simplified further which means it has complex roots so that leaves the only real root as $(x-2)=0$, which means that 2 is the positive root.
+- b). The degree of a polynomial is the highest power of the variables, which in this case, is 3.
