@@ -36,9 +36,6 @@
  | BCBCBCBC | 1,099,511,627,776 |
 
 
-
-
-
 ## Efficiency
 
 ### Questions
@@ -50,3 +47,9 @@
   - d). For a proof size, which of thses do you want?
 
 ### Answers
+
+- 3.
+  - a). $O(n)$ shows that the complexity scales linearly with regard to an input $n$.
+  - b). $O(1)$ show that the complexity remains constant regardless of input.
+  - c). $O(log n)$ shows that complexity scales as the logarithm of the input $n$.
+  - d). For computating a proof, the ideal would be $O(1)$ so that a proof can be generated a timely fashion for any input size.
