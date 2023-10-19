@@ -22,19 +22,18 @@
 
 ### Answers
 
-- 2).  Using the repeating characters "BC" for bootcamp, as the prefix on the Eth vanity generator.  It was interesting to see the complexity increase:
+- 2). Using the repeating characters "BC" for bootcamp, as the prefix on the Eth vanity generator. It was interesting to see the complexity increase:
 
- | PREFIX | COMPLEXITY |
- | ---  | --- |
- | B | 32 |
- | BC |  1024 |
- | BCB | 32,768 |
- | BCBC | 1,048,576 |
- | BCBCB | 33,554,432 |
- | BCBCBC | 1,073,741,824 |
- | BCBCBCB | 34,359,738,368 |
- | BCBCBCBC | 1,099,511,627,776 |
-
+| PREFIX   | COMPLEXITY        |
+| -------- | ----------------- |
+| B        | 32                |
+| BC       | 1024              |
+| BCB      | 32,768            |
+| BCBC     | 1,048,576         |
+| BCBCB    | 33,554,432        |
+| BCBCBC   | 1,073,741,824     |
+| BCBCBCB  | 34,359,738,368    |
+| BCBCBCBC | 1,099,511,627,776 |
 
 ## Efficiency
 
@@ -43,7 +42,7 @@
 - 3. What do you understand by:
   - a). $O(n)$
   - b). $O(1)$
-  - c). $O(log n)$
+  - c). $O(\log{n})$
   - d). For a proof size, which of thses do you want?
 
 ### Answers
@@ -51,5 +50,5 @@
 - 3.
   - a). $O(n)$ shows that the complexity scales linearly with regard to an input $n$.
   - b). $O(1)$ show that the complexity remains constant regardless of input.
-  - c). $O(log n)$ shows that complexity scales as the logarithm of the input $n$.
+  - c). $O(\log{n})$ shows that complexity scales as the logarithm of the input $n$.
   - d). For computating a proof, the ideal would be $O(1)$ so that a proof can be generated a timely fashion for any input size.

@@ -1,0 +1,5 @@
+def main(private field a) {
+    // Asset that the prover knows the square root of 25
+	assert(a * a == 25);
+	return;
+}

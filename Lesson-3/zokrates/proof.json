@@ -1,0 +1,25 @@
+{
+  "scheme": "g16",
+  "curve": "bn128",
+  "proof": {
+    "a": [
+      "0x1376fb4ca9544d15182a45e4885f5ccb092ba1b8da69f82ff62e6e72a04428f2",
+      "0x07fb74ff5e18610049cb40d10c6f0cf3a96779efd10186413074faec19376d85"
+    ],
+    "b": [
+      [
+        "0x156bc96112c7c20a595d83fbb87a17651da66b56d6478360456c95b7aa7f7a4a",
+        "0x2e6f3f412318ae6fac38a289c4ade79402d95a76ad08de31f64ab91dd4944d70"
+      ],
+      [
+        "0x20666da75d575eb2d4782f953cf114083db282257494db342e09828642dbf9ea",
+        "0x2d67eb0c965adf2f947e95da4a13babbfd83559837ef4fd26a64c69579a42978"
+      ]
+    ],
+    "c": [
+      "0x13779821280ae5ce0feacfef5995c8f83559db5a61afb2d6a4802aef19ddf8e5",
+      "0x2d7cfb7e75d690832957a69c60c3f85e1b5f94246f8da62bee598567d219d346"
+    ]
+  },
+  "inputs": []
+}
