@@ -34,3 +34,9 @@ nargo verify
 
 No output from the verifier signals success, if the
 proof fails to verify it will produce an error.
+
+
+### Answers
+
+ ../code/noir/hello_world/proofs/hello_world.proof
+
