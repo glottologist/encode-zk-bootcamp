@@ -44,4 +44,4 @@ $y(x) = a_4x^4 + a_3x^3 + a_2x^2 + a_1x + a_0$
 
 [PlanetCalc](https://planetcalc.com/8680/) requires all 5 interpolation points because you cannot specify the degree of the polynomial to find. The calculator uses the Lagrangian Interpolation method:
 
-$P(X)=\sum_{j=0}^{n}y_{j}(\prod_{i=0,i\neq{j}}^{n} \frac{X-x_{i}}{x_{j}-x_{i}})$
+$P(X)=\sum_{j=0}^{n} y_{j} (\prod_{i=0,i\neq{j}}^{n} \frac{X-x_{i}}{x_{j}-x_{i}})$
